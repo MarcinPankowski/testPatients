@@ -18,6 +18,7 @@ public class PatientService {
         patients.add(new Patient("Marlena", "Wymbor"));
         patients.add(new Patient("Marlena", "Wymbor"));
         patients.add(new Patient("Marlena", "Wymbor"));
+        patients.add(new Patient("Marlena", "Wymbor"));
 
     }
 
