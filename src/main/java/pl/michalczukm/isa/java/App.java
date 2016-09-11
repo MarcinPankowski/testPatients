@@ -3,7 +3,7 @@ package pl.michalczukm.isa.java;
 import java.util.List;
 
 
-public class App 
+public class App
 {
     public static void main( String[] args ) {
 
