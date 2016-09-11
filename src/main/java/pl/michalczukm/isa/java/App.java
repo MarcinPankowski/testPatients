@@ -8,6 +8,7 @@ public class App
     public static void main( String[] args ) {
 
         PatientService patientService = new PatientService();
+        DoctorService doctorService = new DoctorService();
         List<Patient> patients = patientService.getAll();
 
         for (Patient patient : patients) {
