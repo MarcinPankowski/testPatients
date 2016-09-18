@@ -6,5 +6,6 @@ package pl.michalczukm.isa.java;
 public class DoctorService {
     public static void main(String[] args) {
         new Doctor("Marcin","Kowalski");
+        new Doctor("Zbigniew","Marcinkowski");
     }
 }
