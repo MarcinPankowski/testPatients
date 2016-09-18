@@ -3,10 +3,10 @@ package pl.michalczukm.isa.java;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PatientService {
+public class PatientModel {
     private final List<Patient> patients;
 
-    public PatientService() {
+    public PatientModel() {
         patients = new ArrayList<>();
 
         patients.add(new Patient("Jan", "Kowalski"));
