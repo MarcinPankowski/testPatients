@@ -7,7 +7,5 @@ public class Doctor {
     public void Doctor(){
 
     }
-    public static void main(String[] args) {
 
-    }
 }
