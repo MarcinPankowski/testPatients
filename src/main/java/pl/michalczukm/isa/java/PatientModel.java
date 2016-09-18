@@ -4,31 +4,31 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PatientModel {
-    private final List<Patient> patients;
+    private final List<PatientApp> patients;
 
     public PatientModel() {
         patients = new ArrayList<>();
 
-        patients.add(new Patient("Jan", "Kowalski",21));
-        patients.add(new Patient("Jan", "Nowalski",21));
-        patients.add(new Patient("Krzysiek", "Nowak",21));
-        patients.add(new Patient("Krzysiek", "Nowak",21));
-        patients.add(new Patient("Piotr", "Szulc",21));
-        patients.add(new Patient("Pawel", "Szulcz",21));
-        patients.add(new Patient("Irena", "Kowalska",21));
+        patients.add(new PatientApp("Jan", "Kowalski",21));
+        patients.add(new PatientApp("Jan", "Nowalski",21));
+        patients.add(new PatientApp("Krzysiek", "Nowak",21));
+        patients.add(new PatientApp("Krzysiek", "Nowak",21));
+        patients.add(new PatientApp("Piotr", "Szulc",21));
+        patients.add(new PatientApp("Pawel", "Szulcz",21));
+        patients.add(new PatientApp("Irena", "Kowalska",21));
 
-        patients.add(new Patient("Marlena", "Wymbor",21));
-        patients.add(new Patient("Marlena", "Wymbor",21));
-        patients.add(new Patient("Marlena", "Wymbor",21));
-        patients.add(new Patient("Marlena", "Wymbor",21));
+        patients.add(new PatientApp("Marlena", "Wymbor",21));
+        patients.add(new PatientApp("Marlena", "Wymbor",21));
+        patients.add(new PatientApp("Marlena", "Wymbor",21));
+        patients.add(new PatientApp("Marlena", "Wymbor",21));
 
     }
 
-    public List<Patient> getAll() {
+    public List<PatientApp> getAll() {
         return patients;
     }
 
-    public void Add(Patient patient) {
+    public void Add(PatientApp patient) {
         patients.add(patient);
     }
 }
