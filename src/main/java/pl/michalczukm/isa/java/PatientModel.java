@@ -30,5 +30,6 @@ public class PatientModel {
 
     public void Add(PatientApp patient) {
         patients.add(patient);
+
     }
 }
