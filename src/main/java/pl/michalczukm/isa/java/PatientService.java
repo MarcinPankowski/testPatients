@@ -12,10 +12,14 @@ public class PatientService {
         patients.add(new Patient("Jan", "Kowalski"));
         patients.add(new Patient("Jan", "Kowalski"));
         patients.add(new Patient("Krzysiek", "Nowak"));
+        patients.add(new Patient("Krzysiek", "Nowak"));
         patients.add(new Patient("Piotr", "Szulc"));
         patients.add(new Patient("Pawel", "Szulcz"));
         patients.add(new Patient("Irena", "Kowalska"));
 
+        patients.add(new Patient("Marlena", "Wymbor"));
+        patients.add(new Patient("Marlena", "Wymbor"));
+        patients.add(new Patient("Marlena", "Wymbor"));
         patients.add(new Patient("Marlena", "Wymbor"));
 
     }
