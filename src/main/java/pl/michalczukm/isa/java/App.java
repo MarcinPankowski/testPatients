@@ -11,6 +11,7 @@ public class App
         DoctorService doctorService = new DoctorService();
         List<PatientApp> patientApps = patientModel.getAll();
         //coment to revert
+        //out
 
         for (PatientApp patientApp : patientApps) {
             System.out.println(String.format(">> %1$s %2$s <<", patientApp.getFirstName(), patientApp.getLastName()));
