@@ -9,7 +9,7 @@ public class PatientModel {
     public PatientModel() {
         patients = new ArrayList<>();
 
-        patients.add(new Patient("Kuba", "Kowalski",21));
+        patients.add(new Patient("Jan", "Kowalski",21));
         patients.add(new Patient("Jan", "Nowalski",21));
         patients.add(new Patient("Krzysiek", "Nowak",21));
         patients.add(new Patient("Krzysiek", "Nowak",21));

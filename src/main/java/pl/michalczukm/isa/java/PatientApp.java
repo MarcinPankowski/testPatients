@@ -1,12 +1,12 @@
 package pl.michalczukm.isa.java;
 
-public class Patient {
+public class PatientApp {
     private final String firstName;
     private final String lastName;
     private int age;
 
 
-    public Patient(String firstName, String lastName, int age) {
+    public PatientApp(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;

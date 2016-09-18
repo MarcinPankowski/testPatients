@@ -9,10 +9,10 @@ public class App
 
         PatientModel patientModel = new PatientModel();
         DoctorService doctorService = new DoctorService();
-        List<Patient> patients = patientModel.getAll();
+        List<PatientApp> patientApps = patientModel.getAll();
 
-        for (Patient patient : patients) {
-            System.out.println(String.format(">> %1$s %2$s <<", patient.getFirstName(), patient.getLastName()));
+        for (PatientApp patientApp : patientApps) {
+            System.out.println(String.format(">> %1$s %2$s <<", patientApp.getFirstName(), patientApp.getLastName()));
         }
     }  //cx
 }
