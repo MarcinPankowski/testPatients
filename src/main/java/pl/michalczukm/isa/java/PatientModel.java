@@ -9,18 +9,18 @@ public class PatientModel {
     public PatientModel() {
         patients = new ArrayList<>();
 
-        patients.add(new Patient("Jan", "Kowalski"));
-        patients.add(new Patient("Jan", "Nowalski"));
-        patients.add(new Patient("Krzysiek", "Nowak"));
-        patients.add(new Patient("Krzysiek", "Nowak"));
-        patients.add(new Patient("Piotr", "Szulc"));
-        patients.add(new Patient("Pawel", "Szulcz"));
-        patients.add(new Patient("Irena", "Kowalska"));
+        patients.add(new Patient("Jan", "Kowalski",21));
+        patients.add(new Patient("Jan", "Nowalski",21));
+        patients.add(new Patient("Krzysiek", "Nowak",21));
+        patients.add(new Patient("Krzysiek", "Nowak",21));
+        patients.add(new Patient("Piotr", "Szulc",21));
+        patients.add(new Patient("Pawel", "Szulcz",21));
+        patients.add(new Patient("Irena", "Kowalska",21));
 
-        patients.add(new Patient("Marlena", "Wymbor"));
-        patients.add(new Patient("Marlena", "Wymbor"));
-        patients.add(new Patient("Marlena", "Wymbor"));
-        patients.add(new Patient("Marlena", "Wymbor"));
+        patients.add(new Patient("Marlena", "Wymbor",21));
+        patients.add(new Patient("Marlena", "Wymbor",21));
+        patients.add(new Patient("Marlena", "Wymbor",21));
+        patients.add(new Patient("Marlena", "Wymbor",21));
 
     }
 
